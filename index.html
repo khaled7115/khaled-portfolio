@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0D0817" />
+  <meta name="robots" content="index, follow" />
+
+
+  <!--
+    PHASE 13.1 — PORTAL (site root)
+    The very first thing a visitor sees: a choice between two
+    completely separate sides of the site — Academic/Professional
+    (academic/) and Interests & Activities (sports/). This page borrows
+    the Academic side's design tokens (css/main.css) as a shared
+    visual base, since it's neutral ground between both sides, but
+    lives entirely on its own — it isn't part of either site.
+  -->
+
+  <title>Khaled Ahmed</title>
+  <meta name="description" content="Khaled Ahmed — Academic & Professional Portfolio." />
+  <!-- SEO: canonical + Open Graph + Twitter Card.
+        DOMAIN is a placeholder — replace https://YOUR_DOMAIN.com
+        everywhere once the site has a real domain. -->
+  <link rel="canonical" href="https://YOUR_DOMAIN.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Khaled Ahmed" />
+  <meta property="og:title" content="Khaled Ahmed" />
+  <meta property="og:description" content="Khaled Ahmed — Academic & Professional Portfolio." />
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/" />
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/academic/assets/images/profile.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Khaled Ahmed" />
+  <meta name="twitter:description" content="Khaled Ahmed — Academic & Professional Portfolio." />
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/academic/assets/images/profile.png" />
+
+
+  <link rel="icon" type="image/svg+xml" href="academic/assets/icons/favicon.svg" />
+  <link rel="stylesheet" href="academic/css/main.css" />
+  <link rel="stylesheet" href="portal.css" />
+  <link rel="stylesheet" href="transition.css" />
+  <script>
+    /* Anti-flash pre-cover: if we arrived through a world transition, paint an
+       opaque curtain BEFORE first paint so the reveal in transition.js has no
+       white flash to fight. Self-removing failsafe in case transition.js is
+       ever missing. Kept tiny + dependency-free on purpose. */
+    (function () {
+      try {
+        var t = sessionStorage.getItem('he-transition');
+        if (!t) return;
+        var bg = t === 'chess' ? '#0A0A0C' : (t === 'portal' ? '#0B1022' : '#05070F');
+        var d = document.createElement('div');
+        d.id = 'he-transition-precover';
+        d.style.cssText = 'position:fixed;inset:0;z-index:2147483646;background:' + bg + ';';
+        (document.body || document.documentElement).appendChild(d);
+        setTimeout(function () { if (d && d.parentNode) d.parentNode.removeChild(d); }, 1600);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="portal-body">
+  <a href="#main-content" class="skip-link" data-i18n="skipToContent">Skip to main content</a>
+
+  <!-- Language switcher (AR / EN / RU). Hardcoded so language.js wires it
+       directly (its ensureLanguageSwitcher() no-ops when one already exists),
+       and reuses the shared .lang-switcher styling from academic/css/main.css. -->
+  <div class="portal-lang">
+    <div class="lang-switcher" aria-label="Language switcher">
+      <button type="button" data-lang-switch="ar" aria-label="العربية">AR</button>
+      <button type="button" data-lang-switch="en" aria-label="English">EN</button>
+      <button type="button" data-lang-switch="ru" aria-label="Русский">RU</button>
+    </div>
+  </div>
+
+  <div class="portal-starfield" aria-hidden="true"></div>
+  <div class="portal-glow" aria-hidden="true"></div>
+  <div class="portal-grain" aria-hidden="true"></div>
+
+  <main class="portal" id="main-content">
+    <div class="portal-intro">
+      <div class="portal-portrait">
+        <div class="portrait-orbit" aria-hidden="true">
+          <span class="orbit-dot"></span>
+        </div>
+        <span class="portrait-node portrait-node--tl" aria-hidden="true"></span>
+        <span class="portrait-node portrait-node--br" aria-hidden="true"></span>
+        <div class="portrait-frame">
+          <img
+            src="academic/assets/images/profile.png"
+            alt="Portrait of Khaled Ahmed"
+            class="portrait-image"
+            id="portrait-image"
+            decoding="async"
+          />
+          <div class="portrait-placeholder" id="portrait-placeholder" aria-hidden="true">KA</div>
+        </div>
+      </div>
+
+      <h1 data-i18n="siteName">Khaled Ahmed</h1>
+      <p class="portal-subtitle" data-i18n="portalPrompt">Which side are you here for?</p>
+
+      <!-- Connect: real social links + the Discord community button. Both are
+           rendered data-driven by academic/js/social.js from the single source
+           of truth (academic/data/social.js) — no links are hardcoded here, and
+           labels follow the language via i18n:languagechange. -->
+      <div class="portal-connect">
+        <span class="portal-connect-kicker" data-i18n="portalConnect">Connect with me</span>
+        <nav class="portal-socials" data-footer-socials aria-label="Social media"></nav>
+        <div class="portal-discord" data-discord-cta></div>
+      </div>
+    </div>
+
+    <div class="portal-cards">
+      <a href="academic/index.html" class="portal-card portal-card--academic">
+        <span class="portal-card-index" aria-hidden="true">01</span>
+        <span class="portal-card-emblem" aria-hidden="true">
+          <svg viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="27" cy="26" r="10"></circle>
+            <ellipse cx="27" cy="26" rx="20" ry="7" transform="rotate(-22 27 26)"></ellipse>
+            <path d="M43.5 11.5 v6 M40.5 14.5 h6"></path>
+            <circle cx="12.5" cy="41" r="1.1" fill="currentColor" stroke="none"></circle>
+          </svg>
+        </span>
+        <span class="portal-card-eyebrow" data-i18n="portalAcademicEyebrow">Academic &amp; Professional</span>
+        <h2 data-i18n="portalAcademicTitle">Computer Science &amp; Technology</h2>
+        <p data-i18n="portalAcademicDesc">Certificates, academic journey, projects, and the long-term path toward a career in technology.</p>
+        <span class="portal-card-cta">
+          <span class="portal-card-cta-text" data-i18n="portalEnter">Enter</span>
+          <span class="portal-card-cta-arrow" aria-hidden="true">→</span>
+        </span>
+      </a>
+
+      <a href="sports/index.html" class="portal-card portal-card--sports">
+        <span class="portal-card-index" aria-hidden="true">02</span>
+        <span class="portal-card-emblem" aria-hidden="true">
+          <svg viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M28 6 L28 15"></path>
+            <path d="M23 10 L33 10"></path>
+            <circle cx="28" cy="18" r="3"></circle>
+            <path d="M20 26 C20 21 24 17 28 17 C32 17 36 21 36 26 L38.5 38 C38.5 41 33 43 28 43 C23 43 17.5 41 17.5 38 Z"></path>
+            <path d="M15 45 C15 40 21 38 28 38 C35 38 41 40 41 45 L44 50 L12 50 Z"></path>
+            <path d="M9 52 L47 52"></path>
+          </svg>
+        </span>
+        <span class="portal-card-eyebrow" data-i18n="portalSportsEyebrow">Personal</span>
+        <h2 data-i18n="portalSportsTitle">Interests &amp; Activities</h2>
+        <p data-i18n="portalSportsDesc">This space is empty for now — content can be added here later.</p>
+        <span class="portal-card-cta">
+          <span class="portal-card-cta-text" data-i18n="portalEnter">Enter</span>
+          <span class="portal-card-cta-arrow" aria-hidden="true">→</span>
+        </span>
+      </a>
+    </div>
+  </main>
+
+  <!-- i18n + social: reused from the Academic side (single source of truth).
+       Load order: data globals (translations, socialData) before their readers
+       (language.js wires the AR/EN/RU switcher; social.js renders the links +
+       Discord CTA and re-renders on i18n:languagechange). All deferred, so they
+       run in order before DOMContentLoaded. -->
+  <script src="academic/data/translations.js" defer></script>
+  <script src="academic/data/social.js" defer></script>
+  <script src="academic/js/language.js" defer></script>
+  <script src="academic/js/social.js" defer></script>
+
+  <script src="transition.js" defer></script>
+  <script src="portal.js" defer></script>
+  <script src="academic/js/ambient.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0D0817" />
+  <meta name="robots" content="index, follow" />
+
+  <!--
+    ACTIVITIES / PERSONAL SIDE — replaces the old volleyball-only page.
+    Intentionally simple: reuses the shared academic design system
+    (same starfield + tech-scene as every other inner page — see
+    ../academic/css/main.css) instead of a bespoke skin, since there
+    is no dedicated content here yet. Add real activities later by
+    following the "TO ADD CONTENT" note in the <main> below.
+  -->
+
+  <title>Interests & Activities — Khaled Ahmed</title>
+  <meta name="description" content="Khaled Ahmed's activities — volunteering and community program certificates." />
+  <link rel="canonical" href="https://YOUR_DOMAIN.com/sports/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Khaled Ahmed" />
+  <meta property="og:title" content="Interests & Activities — Khaled Ahmed" />
+  <meta property="og:description" content="Interests & Activities — Khaled Ahmed." />
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/sports/" />
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/academic/assets/images/profile.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Interests & Activities — Khaled Ahmed" />
+  <meta name="twitter:description" content="Interests & Activities — Khaled Ahmed." />
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/academic/assets/images/profile.png" />
+
+  <link rel="icon" type="image/svg+xml" href="../academic/assets/icons/favicon.svg" />
+  <!-- Shared academic design system (self-contained, portable). The
+       scoped volleyball skin (sports/css/sports.css) is intentionally
+       NOT loaded anymore, so this page now uses the same cosmic /
+       tech look as the rest of the Academic side. -->
+  <link rel="stylesheet" href="../academic/css/main.css" />
+  <link rel="stylesheet" href="../transition.css" />
+  <script>
+    (function () {
+      try {
+        var t = sessionStorage.getItem('he-transition');
+        if (!t) return;
+        var bg = t === 'portal' ? '#0B1022' : '#05070F';
+        var d = document.createElement('div');
+        d.id = 'he-transition-precover';
+        d.style.cssText = 'position:fixed;inset:0;z-index:2147483646;background:' + bg + ';';
+        (document.body || document.documentElement).appendChild(d);
+        setTimeout(function () { if (d && d.parentNode) d.parentNode.removeChild(d); }, 1600);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link" data-i18n="skipToContent">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <div class="header-brand">
+        <a class="logo" href="../academic/index.html" data-i18n="siteName">Khaled Ahmed</a>
+        <div class="site-switch">
+          <a href="../index.html" class="site-switch-link" data-i18n-aria-label="navPortal" aria-label="Portal">
+            <svg class="site-switch-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 6.5v7L12 22l-8-6.5v-7z"/><circle cx="12" cy="12" r="2.5"/></svg>
+            <span data-i18n="navPortal">Portal</span>
+          </a>
+          <a href="../academic/index.html" class="site-switch-link" data-i18n-aria-label="navAcademic" aria-label="Academic">
+            <svg class="site-switch-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            <span data-i18n="navAcademic">Academic</span>
+          </a>
+        </div>
+      </div>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" class="nav-link" aria-current="page" data-i18n="navVolleyball">Activities</a></li>
+          <li><a href="../academic/index.html" class="nav-link" data-i18n="navAcademic">Academic</a></li>
+          <li><a href="../index.html" class="nav-link" data-i18n="navPortal">Portal</a></li>
+        </ul>
+
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button type="button" data-lang-switch="ar" aria-label="العربية">AR</button>
+          <button type="button" data-lang-switch="en" aria-label="English">EN</button>
+          <button type="button" data-lang-switch="ru" aria-label="Русский">RU</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================================================
+         An honest, empty placeholder — same page-header used on every
+         other internal page (starfield + tech-chip glow from
+         academic/css/main.css). No invented content.
+
+         TO ADD REAL CONTENT LATER:
+         The simplest option is to turn this into a data-driven page
+         like Volunteering: add entries to academic/data/events.js
+         with a new `type` (e.g. "activity"), then drop in a
+         [data-events-grid data-events-type="activity"] block the
+         same way academic/pages/volunteering.html does — real
+         entries appear automatically, no other file needs to change.
+    ============================================================= -->
+    <!-- ============================================================
+         Reuses the same certificates grid/search/modal system as
+         pages/certificates.html and pages/computer-science.html,
+         locked to the "Activity" category (see js/certificates.js).
+         TO ADD AN ACTIVITY: add an entry with category: 'Activity'
+         to academic/data/certificates.js — nothing here changes.
+    ============================================================= -->
+    <section class="page-header">
+      <div class="hero-starfield" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container page-header-inner reveal">
+        <p class="eyebrow" data-i18n="activitiesEyebrow">Personal</p>
+        <h1 data-i18n="activitiesTitle">Interests &amp; Activities</h1>
+        <p class="section-lead" data-i18n="activitiesLead">
+          Volunteering, community programs, and youth initiatives —
+          kept separate from academic and computer-science work.
+        </p>
+      </div>
+    </section>
+
+    <section class="certificates-toolbar">
+      <div class="container toolbar-inner reveal">
+        <label class="search-field">
+          <span class="sr-only" data-i18n="certificatesSearchLabel">Search certificates</span>
+          <input
+            type="search"
+            id="certificates-search"
+            placeholder="Search..."
+            data-i18n-placeholder="certificatesSearchPlaceholder"
+            autocomplete="off"
+          />
+        </label>
+        <div class="filter-chips" id="certificates-filters" hidden></div>
+      </div>
+    </section>
+
+    <section class="certificates-full">
+      <div class="container">
+        <div class="certificates-grid" id="certificates-full-grid" data-category-lock="Activity"></div>
+        <p class="empty-state" id="certificates-empty-state" hidden data-i18n="activitiesCertsEmpty">
+          No activity certificates added yet.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner reveal">
+      <div class="footer-brand">
+        <p class="logo" data-i18n="siteName">Khaled Ahmed</p>
+        <p class="footer-mission" data-i18n="footerMission">
+          Building a path from strong foundations toward a strong career
+          in technology, one real project at a time.
+        </p>
+      </div>
+
+      <nav class="footer-socials" data-footer-socials aria-label="Social links" hidden></nav>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year"></span> <span data-i18n="siteName">Khaled Ahmed</span></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script src="../transition.js" defer></script>
+  <script src="../academic/js/cursor.js" defer></script>
+  <script src="../academic/data/certificates.js" defer></script>
+  <script src="../academic/js/certificates.js" defer></script>
+  <script src="../academic/data/social.js" defer></script>
+  <script src="../academic/data/translations.js" defer></script>
+  <script src="../academic/js/language.js" defer></script>
+  <script src="../academic/js/navigation.js" defer></script>
+  <script src="../academic/js/animations.js" defer></script>
+  <script src="../academic/js/social.js" defer></script>
+  <script src="../academic/js/media-system.js" defer></script>
+  <script src="../academic/js/ambient.js" defer></script>
+</body>
+</html>
