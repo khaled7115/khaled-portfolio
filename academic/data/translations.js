@@ -82,12 +82,17 @@ const translations = {
     missionItem6Body: 'Learning how research actually works, ahead of doing any of his own.',
 
     // Latest Highlight — a single spotlight slot under "My Current Progress"
-    // for the newest certificate, research entry, or project. Left empty on
-    // purpose; see the commented-out card templates in index.html.
-    latestEyebrow: 'Latest Highlight',
-    latestHeading: 'The newest addition to my progress',
-    latestEmpty: 'Nothing added yet — this spot is reserved for the latest certificate, research entry, or project.',
+// For the newest certificate, research entry, or project. Left empty on
+// purpose; see the commented-out card templates in index.html.
+latestEyebrow: 'Latest Highlight',
+latestHeading: 'The newest addition to my progress',
+latestEmpty: 'Nothing added yet — this spot is reserved for the latest certificate, research entry, or project.',
 
+latestCertCategory: 'Achievement',
+latestCertTitle: 'HackerRank Software Engineer Intern — Certificate of Accomplishment',
+latestCertProvider: 'HackerRank · September 2026',
+latestCertDescription: 'Successfully passed the HackerRank Software Engineer Intern role certification test, demonstrating foundational skills relevant to software engineering.',
+latestCertVerify: 'Verify Certificate', 
     // Certificates Preview
     certificatesEyebrow: 'Certificates',
     certificatesHeading: "What I've completed so far",
@@ -475,10 +480,16 @@ const translations = {
     missionItem6Title: 'مهارات البحث الأكاديمي',
     missionItem6Body: 'تعلّم كيف يعمل البحث العلمي فعليًا، قبل القيام بأي بحث خاص به.',
 
-    // Latest Highlight — مكان واحد مخصص تحت "تقدمي الحالي" لآخر شهادة أو
-    // بحث أو مشروع. سايبه فاضي عمدًا؛ شوف قوالب الكود الجاهزة (معلّقة
-    // بالكومنتات) في index.html.
-    latestEyebrow: 'آخر إنجاز',
+    // Latest Highlight
+latestEyebrow: 'آخر إنجاز',
+latestHeading: 'أحدث إضافة إلى مسيرتي',
+latestEmpty: 'لم يتم إضافة شيء هنا بعد — سيكون هذا المكان مخصصًا لأحدث شهادة أو بحث أو مشروع.',
+
+latestCertCategory: 'إنجاز',
+latestCertTitle: 'HackerRank لمهندس برمجيات متدرب — شهادة إنجاز',
+latestCertProvider: 'HackerRank · سبتمبر 2026',
+latestCertDescription: 'اجتزت بنجاح اختبار الاعتماد الخاص بدور مهندس البرمجيات المتدرب من HackerRank، مما يثبت امتلاك مهارات أساسية مرتبطة بمجال هندسة البرمجيات.',
+latestCertVerify: 'التحقق من الشهادة',
     latestHeading: 'أحدث إضافة إلى تقدمي',
     latestEmpty: 'لسه معملتش حاجة هنا — المكان ده محجوز لآخر شهادة أو بحث أو مشروع.',
 
@@ -868,12 +879,16 @@ const translations = {
     missionItem6Title: 'Навыки академических исследований',
     missionItem6Body: 'Изучение того, как устроены исследования, прежде чем проводить собственные.',
 
-    // Latest Highlight — одно место под «Мой текущий прогресс» для
-    // последнего сертификата, исследования или проекта. Намеренно пусто;
-    // см. закомментированные шаблоны карточек в index.html.
-    latestEyebrow: 'Последнее достижение',
-    latestHeading: 'Последнее добавление к моему прогрессу',
-    latestEmpty: 'Пока ничего не добавлено — это место зарезервировано для последнего сертификата, исследования или проекта.',
+    // Latest Highlight
+latestEyebrow: 'Последнее достижение',
+latestHeading: 'Новейшее дополнение к моему прогрессу',
+latestEmpty: 'Пока ничего не добавлено — это место зарезервировано для последнего сертификата, исследования или проекта.',
+
+latestCertCategory: 'Достижение',
+latestCertTitle: 'HackerRank Software Engineer Intern — Сертификат о достижении',
+latestCertProvider: 'HackerRank · Сентябрь 2026',
+latestCertDescription: 'Успешно пройден сертификационный тест HackerRank для роли стажёра-инженера программного обеспечения, подтверждающий наличие базовых навыков, необходимых в области разработки программного обеспечения.',
+latestCertVerify: 'Проверить сертификат',
 
     // Certificates Preview
     certificatesEyebrow: 'Сертификаты',
