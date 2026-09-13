@@ -65,7 +65,8 @@ const certificatesData = [
   isDemo: false,
 },
    
-  {
+
+   {
   title: {
     en: 'Kangaroo Without Borders International Initiative – Certificate of Excellence',
     ar: 'مبادرة كانجارو بلا حدود – شهادة تميز',
@@ -73,16 +74,78 @@ const certificatesData = [
   },
   provider: 'EduMeter Egypt · Kangaroo Without Borders',
   date: 'Summer 2026',
-  category: 'Computer Science',
+  category: 'Achievement',
   image: 'assets/certificates/math.png',
   credentialUrl: 'https://edumeteregypt.com/verify_certificate.php?data=eyJzdHVkZW50X2lkIjoia2hhbGVkMjAwNzEyMjA0ODAiLCJpdGVtX2lkIjoiMjAyNjY4Y2RmMDBjYzIwMjYiLCJjZXJ0aWZpY2F0ZV90eXBlIjoiXHUwNjJhXHUwNjQxXHUwNjQ4XHUwNjQyIn0%3D',
   description: {
-    en: 'A Certificate of Excellence recognizing outstanding achievement in mathematics through the Kangaroo Without Borders International Initiative, with a focus on logical thinking, analytical reasoning, and problem-solving.',
-    ar: 'شهادة تميز تقديرًا للإنجاز المتميز في الرياضيات ضمن مبادرة كانجارو بلا حدود، مع التركيز على التفكير المنطقي والتحليل وحل المشكلات.',
-    ru: 'Сертификат отличия за выдающиеся достижения в математике в рамках международной инициативы «Кенгуру без границ», с акцентом на логическое мышление, аналитическое рассуждение и решение задач.',
+    en: 'A Certificate of Excellence recognizing outstanding achievement in mathematics through the Kangaroo Without Borders International Initiative, highlighting logical thinking, analytical reasoning, and problem-solving skills.',
+    ar: 'شهادة تميز تقديرًا للإنجاز المتميز في الرياضيات ضمن مبادرة كانجارو بلا حدود، وإبرازًا لمهارات التفكير المنطقي والتحليل وحل المشكلات.',
+    ru: 'Сертификат отличия за выдающиеся достижения в математике в рамках международной инициативы «Кенгуру без границ», подчёркивающий навыки логического мышления, анализа и решения задач.',
   },
   isDemo: false,
 },
+
+{
+    title: {
+      en: 'Introduction to Artificial Intelligence and Generative AI',
+      ar: 'مدخل إلى الذكاء الاصطناعي والذكاء الاصطناعي التوليدي',
+      ru: 'Введение в искусственный интеллект и генеративный ИИ',
+    },
+    provider: 'Edraak · Crescent Petroleum',
+    date: 'August 2026',
+    category: 'Computer Science',
+    image: 'assets/certificates/intro-to-ai-generative-ai.jpg',
+    credentialUrl: 'https://programs.edraak.org/learn/verify-certificate/86ecda3ef0cd4678a7e176bc492aa0fe/?lang=en',
+    description: {
+      en: 'A simplified, practical introduction to AI and Generative AI: core concepts, how models work, and real-world applications.',
+      ar: 'مدخل مبسّط وعملي إلى الذكاء الاصطناعي والذكاء الاصطناعي التوليدي، يغطي المفاهيم الأساسية وآلية عمل النماذج وأبرز التطبيقات العملية.',
+      ru: 'Упрощённое практическое введение в ИИ и генеративный ИИ: базовые понятия, принципы работы моделей и реальные применения.',
+    },
+    isDemo: false,
+  },
+
+
+    {
+    title: {
+      en: 'Data Science & Machine Learning',
+      ar: 'علم البيانات والتعلّم الآلي',
+      ru: 'Наука о данных и машинное обучение',
+    },
+    provider: 'Edraak',
+    date: 'August 2026',
+    category: 'Computer Science',
+    image: 'assets/certificates/data-science-machine-learning.jpg',
+    credentialUrl: 'https://programs.edraak.org/learn/verify-certificate/cd2e85836866450188d68f240d5335b8/?lang=en',
+    description: {
+      en: 'Covered the basics of data science and machine learning — practical applications, machine learning, AI, and neural networks — with hands-on, interactive training on real datasets.',
+      ar: 'أساسيات علم البيانات والتعلّم الآلي وتطبيقاتهما العملية، مع التعرّف على التعلّم الآلي والذكاء الاصطناعي والشبكات العصبية، وساعات تدريبية تفاعلية على بيانات فعلية.',
+      ru: 'Основы науки о данных и машинного обучения — практическое применение, машинное обучение, ИИ и нейронные сети — с интерактивной практикой на реальных данных.',
+    },
+    isDemo: false,
+  },
+
+
+    {
+    title: {
+      en: 'Robot Maker',
+      ar: 'مقدمة في صناعة الروبوتات',
+      ru: 'Robot Maker — основы робототехники',
+    },
+    provider: 'Edraak',
+    date: 'August 2026',
+    category: 'Computer Science',
+    image: 'assets/certificates/robot-maker.jpg',
+    credentialUrl: 'https://programs.edraak.org/learn/verify-certificate/2eed8ec940c64334bc9ad2333df45170/?lang=en',
+    description: {
+      en: 'Training in the basics of robotics — the sensors and electronics used in building robots, and how a robot can be designed using 3D programs — through practical projects.',
+      ar: 'تدريب على أساسيات الروبوتات وأنواع الحساسات والإلكترونيات المستخدمة في تصميمها، والتدريب على برامج التصميم ثلاثي الأبعاد من خلال مشاريع عملية.',
+      ru: 'Обучение основам робототехники — датчикам и электронике для сборки роботов, а также проектированию в 3D-программах — через практические проекты.',
+    },
+    isDemo: false,
+  },
+
+   
+   
   
   {
     title: 'AI Tools',
@@ -116,83 +179,15 @@ const certificatesData = [
     },
     isDemo: false,
   },
-  {
-    title: {
-      en: 'Introduction to Artificial Intelligence and Generative AI',
-      ar: 'مدخل إلى الذكاء الاصطناعي والذكاء الاصطناعي التوليدي',
-      ru: 'Введение в искусственный интеллект и генеративный ИИ',
-    },
-    provider: 'Edraak · Crescent Petroleum',
-    date: 'August 2026',
-    category: 'Computer Science',
-    image: 'assets/certificates/intro-to-ai-generative-ai.jpg',
-    credentialUrl: 'https://programs.edraak.org/learn/verify-certificate/86ecda3ef0cd4678a7e176bc492aa0fe/?lang=en',
-    description: {
-      en: 'A simplified, practical introduction to AI and Generative AI: core concepts, how models work, and real-world applications.',
-      ar: 'مدخل مبسّط وعملي إلى الذكاء الاصطناعي والذكاء الاصطناعي التوليدي، يغطي المفاهيم الأساسية وآلية عمل النماذج وأبرز التطبيقات العملية.',
-      ru: 'Упрощённое практическое введение в ИИ и генеративный ИИ: базовые понятия, принципы работы моделей и реальные применения.',
-    },
-    isDemo: false,
-  },
-  {
-    title: {
-      en: 'Data Science & Machine Learning',
-      ar: 'علم البيانات والتعلّم الآلي',
-      ru: 'Наука о данных и машинное обучение',
-    },
-    provider: 'Edraak',
-    date: 'August 2026',
-    category: 'Computer Science',
-    image: 'assets/certificates/data-science-machine-learning.jpg',
-    credentialUrl: 'https://programs.edraak.org/learn/verify-certificate/cd2e85836866450188d68f240d5335b8/?lang=en',
-    description: {
-      en: 'Covered the basics of data science and machine learning — practical applications, machine learning, AI, and neural networks — with hands-on, interactive training on real datasets.',
-      ar: 'أساسيات علم البيانات والتعلّم الآلي وتطبيقاتهما العملية، مع التعرّف على التعلّم الآلي والذكاء الاصطناعي والشبكات العصبية، وساعات تدريبية تفاعلية على بيانات فعلية.',
-      ru: 'Основы науки о данных и машинного обучения — практическое применение, машинное обучение, ИИ и нейронные сети — с интерактивной практикой на реальных данных.',
-    },
-    isDemo: false,
-  },
-  {
-    title: {
-      en: 'Robot Maker',
-      ar: 'مقدمة في صناعة الروبوتات',
-      ru: 'Robot Maker — основы робототехники',
-    },
-    provider: 'Edraak',
-    date: 'August 2026',
-    category: 'Computer Science',
-    image: 'assets/certificates/robot-maker.jpg',
-    credentialUrl: 'https://programs.edraak.org/learn/verify-certificate/2eed8ec940c64334bc9ad2333df45170/?lang=en',
-    description: {
-      en: 'Training in the basics of robotics — the sensors and electronics used in building robots, and how a robot can be designed using 3D programs — through practical projects.',
-      ar: 'تدريب على أساسيات الروبوتات وأنواع الحساسات والإلكترونيات المستخدمة في تصميمها، والتدريب على برامج التصميم ثلاثي الأبعاد من خلال مشاريع عملية.',
-      ru: 'Обучение основам робототехники — датчикам и электронике для сборки роботов, а также проектированию в 3D-программах — через практические проекты.',
-    },
-    isDemo: false,
-  },
 
-  // ---- Achievements (general — shows under the "Achievement" filter chip) ----
+   
 
-{
-  title: {
-    en: 'Kangaroo Without Borders International Initiative – Certificate of Excellence',
-    ar: 'مبادرة كانجارو بلا حدود – شهادة تميز',
-    ru: 'Международная инициатива «Кенгуру без границ» – Сертификат отличия',
-  },
-  provider: 'EduMeter Egypt · Kangaroo Without Borders',
-  date: 'Summer 2026',
-  category: 'Achievement',
-  image: 'assets/certificates/math.png',
-  credentialUrl: 'https://edumeteregypt.com/verify_certificate.php?data=eyJzdHVkZW50X2lkIjoia2hhbGVkMjAwNzEyMjA0ODAiLCJpdGVtX2lkIjoiMjAyNjY4Y2RmMDBjYzIwMjYiLCJjZXJ0aWZpY2F0ZV90eXBlIjoiXHUwNjJhXHUwNjQxXHUwNjQ4XHUwNjQyIn0%3D',
-  description: {
-    en: 'A Certificate of Excellence recognizing outstanding achievement in mathematics through the Kangaroo Without Borders International Initiative, highlighting logical thinking, analytical reasoning, and problem-solving skills.',
-    ar: 'شهادة تميز تقديرًا للإنجاز المتميز في الرياضيات ضمن مبادرة كانجارو بلا حدود، وإبرازًا لمهارات التفكير المنطقي والتحليل وحل المشكلات.',
-    ru: 'Сертификат отличия за выдающиеся достижения в математике в рамках международной инициативы «Кенгуру без границ», подчёркивающий навыки логического мышления, анализа и решения задач.',
-  },
-  isDemo: false,
-},
-
-  {
+   
+ 
+ 
+   // ---- Achievements (general — shows under the "Achievement" filter chip) ----
+  
+   {
     title: {
       en: 'The National Awareness Role in Developing Youth Skills to Face Crises and Challenges',
       ar: 'دور الوعي الوطني في تنمية مهارات الشباب لمواجهة الأزمات والتحديات',
@@ -210,6 +205,7 @@ const certificatesData = [
     },
     isDemo: false,
   },
+
   {
     title: {
       en: "International Financial Security Dictation — Winner's Diploma",
@@ -230,7 +226,8 @@ const certificatesData = [
   },
 
   // ---- Activities (community / youth programs — shows under the "Activity" filter chip) ----
-  {
+  
+   {
     title: {
       en: 'Professional Consultation Workshops — "Mashwary" Project',
       ar: 'ورش المشورة المهنية — مشروع "مشواري"',
@@ -267,6 +264,8 @@ const certificatesData = [
     isDemo: false,
   },
 ];
+
+
 
 /* ------------------------------------------------------------
    PARKED DEMO ENTRIES — kept, not deleted (nothing is ever lost).
