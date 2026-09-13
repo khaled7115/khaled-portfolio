@@ -196,7 +196,6 @@ const certificatesData = [
     provider: 'Arab Court of Arbitration · Ministry of Youth and Sports (26th batch, sponsored by Faisal Islamic Bank of Egypt)',
     date: 'August 30 – September 1, 2026',
     category: 'Activity',
-',
     image: 'assets/certificates/national-awareness-youth-skills.jpg',
     credentialUrl: '',
     description: {
