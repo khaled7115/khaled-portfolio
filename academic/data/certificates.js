@@ -53,18 +53,17 @@ const certificatesData = [
   provider: 'HackerRank',
   date: 'September 2026',
   category: 'Achievement',
-  image: 'academic/assets/certificates/software.jpg',
+  image: 'assets/certificates/software.jpg',
   credentialUrl: 'https://www.hackerrank.com/certificates/iframe/deb795ff2390',
   description: {
     en: 'Earned the HackerRank Software Engineer Intern Certificate of Accomplishment after successfully passing the role certification test, demonstrating foundational skills relevant to software engineering.',
-    
+
     ar: 'حصلت على شهادة الإنجاز من HackerRank في مسار مهندس البرمجيات المتدرب بعد اجتياز اختبار الاعتماد الخاص بالدور بنجاح، مما يثبت امتلاك مهارات أساسية مرتبطة بمجال هندسة البرمجيات.',
-    
+
     ru: 'Получен сертификат о достижении HackerRank Software Engineer Intern после успешного прохождения сертификационного теста, подтверждающий базовые навыки, необходимые в области разработки программного обеспечения.',
   },
   isDemo: false,
 },
-
    
   {
   title: {
