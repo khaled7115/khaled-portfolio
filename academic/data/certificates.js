@@ -53,7 +53,7 @@ const certificatesData = [
   provider: 'HackerRank',
   date: 'September 2026',
   category: 'Achievement',
-  image: 'assets/certificates/software-engineer-intern.png',
+  image: 'assets/certificates/software.jpg',
   credentialUrl: 'https://www.hackerrank.com/certificates/iframe/deb795ff2390',
   description: {
     en: 'Earned the HackerRank Software Engineer Intern Certificate of Accomplishment after successfully passing the role certification test, demonstrating foundational skills relevant to software engineering.',
