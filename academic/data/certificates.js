@@ -45,6 +45,33 @@ const certificatesData = [
 
 {
   title: {
+    en: 'HackerRank Python (Basic) – Certificate of Accomplishment',
+    ar: 'HackerRank بايثون (المستوى الأساسي) – شهادة إنجاز',
+    ru: 'HackerRank Python (Basic) – Сертификат о достижении',
+  },
+
+  provider: 'HackerRank',
+  date: 'September 2026',
+  category: 'Achievement',
+
+  image: 'assets/certificates/python.jpg',
+
+  credentialUrl: 'https://www.hackerrank.com/certificates/iframe/d9a8d59e60ae',
+
+  description: {
+    en: 'Earned the HackerRank Python (Basic) Certificate of Accomplishment after successfully passing the HackerRank skill certification test, demonstrating foundational knowledge and programming skills in Python.',
+
+    ar: 'حصلت على شهادة الإنجاز من HackerRank في Python (المستوى الأساسي) بعد اجتياز اختبار اعتماد المهارات بنجاح، مما يثبت امتلاك معرفة ومهارات أساسية في البرمجة باستخدام لغة بايثون.',
+
+    ru: 'Получен сертификат о достижении HackerRank Python (Basic) после успешного прохождения сертификационного теста HackerRank, подтверждающий базовые знания и навыки программирования на языке Python.',
+  },
+
+  isDemo: false,
+},
+   
+
+{
+  title: {
     en: 'HackerRank Problem Solving (Intermediate) – Certificate of Accomplishment',
     ar: 'HackerRank لحل المشكلات (المستوى المتوسط) – شهادة إنجاز',
     ru: 'HackerRank Problem Solving (Intermediate) – Сертификат о достижении',
