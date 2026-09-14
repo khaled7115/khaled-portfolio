@@ -43,6 +43,32 @@
 const certificatesData = [
   // ---- Computer Science (shows under the "Computer Science" filter chip) ----
 
+{
+  title: {
+    en: 'HackerRank Problem Solving (Intermediate) – Certificate of Accomplishment',
+    ar: 'HackerRank لحل المشكلات (المستوى المتوسط) – شهادة إنجاز',
+    ru: 'HackerRank Problem Solving (Intermediate) – Сертификат о достижении',
+  },
+
+  provider: 'HackerRank',
+  date: 'September 2026',
+  category: 'Achievement',
+
+  image: 'assets/certificates/problem.jpg',
+
+  credentialUrl: 'https://www.hackerrank.com/certificates/iframe/4f5c3684cb10',
+
+  description: {
+    en: 'Earned the HackerRank Problem Solving (Intermediate) Certificate of Accomplishment after successfully passing the HackerRank skill certification test, demonstrating intermediate-level problem-solving skills and the ability to solve algorithmic and programming challenges.',
+
+    ar: 'حصلت على شهادة الإنجاز من HackerRank في حل المشكلات (المستوى المتوسط) بعد اجتياز اختبار اعتماد المهارات بنجاح، مما يثبت امتلاك مهارات متوسطة في حل المشكلات والقدرة على التعامل مع التحديات البرمجية والخوارزمية.',
+
+    ru: 'Получен сертификат о достижении HackerRank Problem Solving (Intermediate) после успешного прохождения сертификационного теста HackerRank, подтверждающий навыки решения задач среднего уровня и способность работать с алгоритмическими и программными задачами.',
+  },
+
+  isDemo: false,
+},
+   
 
 {
   title: {
