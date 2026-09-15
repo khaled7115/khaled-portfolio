@@ -43,6 +43,27 @@
 const certificatesData = [
   // ---- Computer Science (shows under the "Computer Science" filter chip) ----
 
+
+
+{
+  title: {
+    en: 'CS50: Introduction to Computer Science',
+    ar: 'CS50: مقدمة في علوم الحاسب',
+    ru: 'CS50: Введение в компьютерные науки',
+  },
+  provider: 'Harvard University — CS50',
+  date: '2026',
+  category: 'Computer Science',
+  image: 'assets/certificates/CS50x.jpg',
+  credentialUrl: 'https://certificates.cs50.io/20747513-1ea1-450b-bc26-96018a2c7315.pdf?size=letter',
+  description: {
+    en: 'Successfully completed CS50: Introduction to Computer Science, covering fundamental concepts of computer science, programming, algorithms, data structures, and software development.',
+    ar: 'أكمل بنجاح دورة CS50: مقدمة في علوم الحاسب، والتي تغطي أساسيات علوم الحاسب والبرمجة والخوارزميات وهياكل البيانات وتطوير البرمجيات.',
+    ru: 'Успешно завершён курс CS50: Введение в компьютерные науки, охватывающий основы компьютерных наук, программирования, алгоритмов, структур данных и разработки программного обеспечения.',
+  },
+  isDemo: false,
+},
+   
 {
   title: {
     en: 'HackerRank SQL (Advanced) – Certificate of Accomplishment',
