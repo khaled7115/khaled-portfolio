@@ -45,6 +45,65 @@ const certificatesData = [
 
 {
   title: {
+    en: 'HackerRank SQL (Advanced) – Certificate of Accomplishment',
+    ar: 'HackerRank SQL (المستوى المتقدم) – شهادة إنجاز',
+    ru: 'HackerRank SQL (Advanced) – Сертификат о достижении',
+  },
+  provider: 'HackerRank',
+  date: 'September 2026',
+  category: 'Computer Science',
+  image: 'assets/certificates/sql.jpg',
+  credentialUrl: 'https://www.hackerrank.com/certificates/iframe/1eae40ddef17',
+  description: {
+    en: 'Earned the HackerRank SQL (Advanced) Certificate of Accomplishment after successfully passing the certification test.',
+    ar: 'حصلت على شهادة الإنجاز من HackerRank في SQL (المستوى المتقدم) بعد اجتياز اختبار الاعتماد بنجاح.',
+    ru: 'Получен сертификат HackerRank SQL (Advanced) после успешного прохождения сертификационного теста.',
+  },
+  isDemo: false,
+},
+
+{
+  title: {
+    en: 'HackerRank REST API (Intermediate) – Certificate of Accomplishment',
+    ar: 'HackerRank REST API (المستوى المتوسط) – شهادة إنجاز',
+    ru: 'HackerRank REST API (Intermediate) – Сертификат о достижении',
+  },
+  provider: 'HackerRank',
+  date: 'September 2026',
+  category: 'Computer Science',
+  image: 'assets/certificates/rest.jpg',
+  credentialUrl: 'https://www.hackerrank.com/certificates/iframe/e2bab0ffdc7a',
+  description: {
+    en: 'Earned the HackerRank REST API (Intermediate) Certificate of Accomplishment after successfully passing the certification test.',
+    ar: 'حصلت على شهادة الإنجاز من HackerRank في REST API (المستوى المتوسط) بعد اجتياز اختبار الاعتماد بنجاح.',
+    ru: 'Получен сертификат HackerRank REST API (Intermediate) после успешного прохождения сертификационного теста.',
+  },
+  isDemo: false,
+},
+
+{
+  title: {
+    en: 'HackerRank JavaScript (Intermediate) – Certificate of Accomplishment',
+    ar: 'HackerRank JavaScript (المستوى المتوسط) – شهادة إنجاز',
+    ru: 'HackerRank JavaScript (Intermediate) – Сертификат о достижении',
+  },
+  provider: 'HackerRank',
+  date: 'September 2026',
+  category: 'Computer Science',
+  image: 'assets/certificates/javascript.jpg',
+  credentialUrl: 'https://www.hackerrank.com/certificates/iframe/ae00830303de',
+  description: {
+    en: 'Earned the HackerRank JavaScript (Intermediate) Certificate of Accomplishment after successfully passing the certification test.',
+    ar: 'حصلت على شهادة الإنجاز من HackerRank في JavaScript (المستوى المتوسط) بعد اجتياز اختبار الاعتماد بنجاح.',
+    ru: 'Получен сертификат HackerRank JavaScript (Intermediate) после успешного прохождения сертификационного теста.',
+  },
+  isDemo: false,
+},
+
+
+   
+{
+  title: {
     en: 'HackerRank Python (Basic) – Certificate of Accomplishment',
     ar: 'HackerRank بايثون (المستوى الأساسي) – شهادة إنجاز',
     ru: 'HackerRank Python (Basic) – Сертификат о достижении',
@@ -52,7 +111,7 @@ const certificatesData = [
 
   provider: 'HackerRank',
   date: 'September 2026',
-  category: 'Achievement',
+  category: 'Computer Science',
 
   image: 'assets/certificates/python.jpg',
 
@@ -79,7 +138,7 @@ const certificatesData = [
 
   provider: 'HackerRank',
   date: 'September 2026',
-  category: 'Achievement',
+  category: 'Computer Science',
 
   image: 'assets/certificates/problem.jpg',
 
@@ -105,7 +164,7 @@ const certificatesData = [
   },
   provider: 'HackerRank',
   date: 'September 2026',
-  category: 'Achievement',
+  category: 'Computer Science',
   image: 'assets/certificates/software.jpg',
   credentialUrl: 'https://www.hackerrank.com/certificates/iframe/deb795ff2390',
   description: {
