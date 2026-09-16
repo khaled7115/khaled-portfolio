@@ -54,7 +54,7 @@ const certificatesData = [
   provider: 'Harvard University — CS50',
   date: '2026',
   category: 'Computer Science',
-  image: 'assets/certificates/CS50x.jpg',
+  image: 'assets/certificates/CS50x.png',
   credentialUrl: 'https://certificates.cs50.io/20747513-1ea1-450b-bc26-96018a2c7315.pdf?size=letter',
   description: {
     en: 'Successfully completed CS50: Introduction to Computer Science, covering fundamental concepts of computer science, programming, algorithms, data structures, and software development.',
