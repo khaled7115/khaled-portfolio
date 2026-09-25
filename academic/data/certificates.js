@@ -329,7 +329,7 @@ const certificatesData = [
   provider: 'Russian House · International Dictation 2026',
   date: '2026',
   category: 'Activity',
-  image: 'assets/certificates/Diploma.jpg',
+  image: 'assets/certificates/Diploma.jpeg',
   credentialUrl: '',
   description: {
     en: 'Achieved 1st place in the International Dual-Language Dictation 2026, completing the dictation in both Arabic and Russian. Awarded the Winner diploma through the Russian House in recognition of outstanding performance in the international educational campaign.',
