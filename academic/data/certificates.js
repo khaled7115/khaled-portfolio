@@ -320,6 +320,24 @@ const certificatesData = [
  
    // ---- Achievements (general — shows under the "Achievement" filter chip) ----
 
+{
+  title: {
+    en: '1st Place — International Dual-Language Dictation 2026 (Arabic & Russian)',
+    ar: 'المركز الأول — الإملاء الدولي المزدوج 2026 (العربية والروسية)',
+    ru: '1-е место — Международный двуязычный диктант 2026 (арабский и русский языки)',
+  },
+  provider: 'Russian House · International Dictation 2026',
+  date: '2026',
+  category: 'Activity',
+  image: 'assets/certificates/Diploma.jpg',
+  credentialUrl: '',
+  description: {
+    en: 'Achieved 1st place in the International Dual-Language Dictation 2026, completing the dictation in both Arabic and Russian. Awarded the Winner diploma through the Russian House in recognition of outstanding performance in the international educational campaign.',
+    ar: 'الحصول على المركز الأول في الإملاء الدولي المزدوج 2026، من خلال المشاركة في الإملاء باللغتين العربية والروسية، والحصول على شهادة الفائز من البيت الروسي تقديرًا للتميز في هذه الحملة التعليمية الدولية.',
+    ru: 'Занял 1-е место в Международном двуязычном диктанте 2026, выполняя диктант на арабском и русском языках. Награждён дипломом победителя при участии Русского дома за выдающийся результат в международной образовательной кампании.',
+  },
+  isDemo: false,
+},
 
 
 
@@ -364,24 +382,6 @@ const certificatesData = [
 
   // ---- Activities (community / youth programs — shows under the "Activity" filter chip) ----
 
-{
-  title: {
-    en: '1st Place — International Dual-Language Dictation 2026 (Arabic & Russian)',
-    ar: 'المركز الأول — الإملاء الدولي المزدوج 2026 (العربية والروسية)',
-    ru: '1-е место — Международный двуязычный диктант 2026 (арабский и русский языки)',
-  },
-  provider: 'Russian House · International Dictation 2026',
-  date: '2026',
-  category: 'Activity',
-  image: 'assets/certificates/Diploma.jpg',
-  credentialUrl: '',
-  description: {
-    en: 'Achieved 1st place in the International Dual-Language Dictation 2026, completing the dictation in both Arabic and Russian. Awarded the Winner diploma through the Russian House in recognition of outstanding performance in the international educational campaign.',
-    ar: 'الحصول على المركز الأول في الإملاء الدولي المزدوج 2026، من خلال المشاركة في الإملاء باللغتين العربية والروسية، والحصول على شهادة الفائز من البيت الروسي تقديرًا للتميز في هذه الحملة التعليمية الدولية.',
-    ru: 'Занял 1-е место в Международном двуязычном диктанте 2026, выполняя диктант на арабском и русском языках. Награждён дипломом победителя при участии Русского дома за выдающийся результат в международной образовательной кампании.',
-  },
-  isDemo: false,
-},
 
    
    {
