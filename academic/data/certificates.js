@@ -43,7 +43,168 @@
 const certificatesData = [
   // ---- Computer Science (shows under the "Computer Science" filter chip) ----
 
+{
+  title: {
+    en: 'IBM Machine Learning Professional Certificate',
+    ar: 'الشهادة المهنية في تعلّم الآلة من IBM',
+    ru: 'Профессиональный сертификат IBM по машинному обучению',
+  },
+  provider: 'IBM — Coursera',
+  date: '2026',
+  category: 'Machine Learning & Artificial Intelligence',
+  image: 'assets/certificates/IBM-Machine-Learning-Professional.png',
+  credentialUrl: 'https://coursera.org/share/adde6a469f030b961a3b023824b0007a',
+  hours: '132 Hours',
+  description: {
+    en: 'Successfully completed the IBM Machine Learning Professional Certificate, a comprehensive six-course program covering exploratory data analysis, supervised and unsupervised learning, regression, classification, deep learning, reinforcement learning, and applied machine learning through hands-on projects and a final capstone.',
+    ar: 'أكمل بنجاح الشهادة المهنية في تعلّم الآلة من IBM، وهي برنامج متكامل مكوّن من ست دورات يغطي تحليل البيانات الاستكشافي، والتعلّم الخاضع للإشراف وغير الخاضع للإشراف، والانحدار، والتصنيف، والتعلّم العميق، والتعلّم المعزز، وتطبيقات تعلّم الآلة من خلال تدريبات ومشروعات عملية ومشروع نهائي.',
+    ru: 'Успешно завершён профессиональный сертификат IBM по машинному обучению — комплексная программа из шести курсов, охватывающая исследовательский анализ данных, обучение с учителем и без учителя, регрессию, классификацию, глубокое и обучение с подкреплением, а также практическое применение машинного обучения через проекты и итоговый Capstone.',
+  },
+  isDemo: false,
+},
 
+{
+  title: {
+    en: 'Exploratory Data Analysis for Machine Learning',
+    ar: 'التحليل الاستكشافي للبيانات لتعلّم الآلة',
+    ru: 'Исследовательский анализ данных для машинного обучения',
+  },
+  provider: 'IBM — Coursera',
+  date: '2026',
+  category: 'Machine Learning',
+  image: 'assets/certificates/IBM-Exploratory-Data-Analysis.png',
+  credentialUrl: 'https://coursera.org/share/19abb67cbe3147b3abe83456339b7c53',
+  hours: '14 Hours',
+  description: {
+    en: 'Completed training in exploratory data analysis for machine learning, covering data retrieval and cleaning, feature engineering, data visualization, statistical inference, hypothesis testing, and preparation of datasets for machine learning models.',
+    ar: 'أكمل تدريبًا في التحليل الاستكشافي للبيانات لتعلّم الآلة، شمل استرجاع البيانات وتنظيفها، وهندسة الخصائص، وتصوير البيانات، والاستدلال الإحصائي، واختبار الفرضيات، وتجهيز مجموعات البيانات لنماذج تعلّم الآلة.',
+    ru: 'Завершён курс по исследовательскому анализу данных для машинного обучения, включающий получение и очистку данных, разработку признаков, визуализацию данных, статистический вывод, проверку гипотез и подготовку наборов данных для моделей машинного обучения.',
+  },
+  isDemo: false,
+},
+
+{
+  title: {
+    en: 'Supervised Machine Learning: Regression',
+    ar: 'تعلّم الآلة الخاضع للإشراف: الانحدار',
+    ru: 'Обучение с учителем: регрессия',
+  },
+  provider: 'IBM — Coursera',
+  date: '2026',
+  category: 'Machine Learning',
+  image: 'assets/certificates/IBM-Supervised-ML-Regression.png',
+  credentialUrl: 'https://coursera.org/share/4d01e61397ace8aa6dffd8625208335b',
+  hours: '20 Hours',
+  description: {
+    en: 'Completed practical training in supervised machine learning with a focus on regression, including linear and polynomial regression, model evaluation, train-test splitting, cross-validation, and regularization techniques such as Ridge, LASSO, and Elastic Net.',
+    ar: 'أكمل تدريبًا عمليًا في تعلّم الآلة الخاضع للإشراف مع التركيز على نماذج الانحدار، بما في ذلك الانحدار الخطي ومتعدد الحدود، وتقييم النماذج، وتقسيم بيانات التدريب والاختبار، والتحقق المتقاطع، وتقنيات الانتظام مثل Ridge وLASSO وElastic Net.',
+    ru: 'Завершён практический курс по обучению с учителем с акцентом на регрессию, включая линейную и полиномиальную регрессию, оценку моделей, разделение данных на обучающую и тестовую выборки, кросс-валидацию и методы регуляризации Ridge, LASSO и Elastic Net.',
+  },
+  isDemo: false,
+},
+
+{
+  title: {
+    en: 'Supervised Machine Learning: Classification',
+    ar: 'تعلّم الآلة الخاضع للإشراف: التصنيف',
+    ru: 'Обучение с учителем: классификация',
+  },
+  provider: 'IBM — Coursera',
+  date: '2026',
+  category: 'Machine Learning',
+  image: 'assets/certificates/IBM-Supervised-ML-Classification.png',
+  credentialUrl: 'https://coursera.org/share/2a02eceba53e4536fc1bc32c92ea4669',
+  hours: '24 Hours',
+  description: {
+    en: 'Completed practical training in supervised machine learning classification, covering logistic regression, decision trees, ensemble methods, model evaluation, train-test splitting, and techniques for handling imbalanced datasets.',
+    ar: 'أكمل تدريبًا عمليًا في تصنيف البيانات باستخدام تعلّم الآلة الخاضع للإشراف، شمل الانحدار اللوجستي، وأشجار القرار، وأساليب التجميع، وتقييم النماذج، وتقسيم بيانات التدريب والاختبار، وتقنيات التعامل مع مجموعات البيانات غير المتوازنة.',
+    ru: 'Завершён практический курс по классификации в обучении с учителем, охватывающий логистическую регрессию, деревья решений, ансамблевые методы, оценку моделей, разделение данных и методы работы с несбалансированными наборами данных.',
+  },
+  isDemo: false,
+},
+
+{
+  title: {
+    en: 'Unsupervised Machine Learning',
+    ar: 'تعلّم الآلة غير الخاضع للإشراف',
+    ru: 'Обучение без учителя',
+  },
+  provider: 'IBM — Coursera',
+  date: '2026',
+  category: 'Machine Learning',
+  image: 'assets/certificates/IBM-Unsupervised-Machine-Learning.png',
+  credentialUrl: 'https://coursera.org/share/3dbac13f372f51bde91e3172e1b751c0',
+  hours: '23 Hours',
+  description: {
+    en: 'Completed training in unsupervised machine learning, covering clustering, dimensionality reduction, similarity analysis, the curse of dimensionality, and practical methods for discovering patterns and insights in unlabeled datasets.',
+    ar: 'أكمل تدريبًا في تعلّم الآلة غير الخاضع للإشراف، شمل التجميع، وتقليل الأبعاد، وتحليل التشابه، ومشكلة لعنة الأبعاد، والأساليب العملية لاكتشاف الأنماط والاستنتاجات في مجموعات البيانات غير المصنفة.',
+    ru: 'Завершён курс по обучению без учителя, охватывающий кластеризацию, снижение размерности, анализ сходства, проблему проклятия размерности и практические методы выявления закономерностей и полезных выводов в неразмеченных данных.',
+  },
+  isDemo: false,
+},
+
+{
+  title: {
+    en: 'Deep Learning and Reinforcement Learning',
+    ar: 'التعلّم العميق والتعلّم المعزز',
+    ru: 'Глубокое обучение и обучение с подкреплением',
+  },
+  provider: 'IBM — Coursera',
+  date: '2026',
+  category: 'Deep Learning & Artificial Intelligence',
+  image: 'assets/certificates/IBM-Deep-Learning-Reinforcement-Learning.png',
+  credentialUrl: 'https://coursera.org/share/46f4ddb4527654274f227b7834ed7325',
+  hours: '31 Hours',
+  description: {
+    en: 'Completed advanced training in deep learning and reinforcement learning, covering neural networks, modern deep learning architectures, model development, and reinforcement learning concepts and techniques.',
+    ar: 'أكمل تدريبًا متقدمًا في التعلّم العميق والتعلّم المعزز، شمل الشبكات العصبية، وبنى التعلّم العميق الحديثة، وتطوير النماذج، ومفاهيم وتقنيات التعلّم المعزز.',
+    ru: 'Завершён углублённый курс по глубокому обучению и обучению с подкреплением, включающий нейронные сети, современные архитектуры глубокого обучения, разработку моделей и основные концепции и методы обучения с подкреплением.',
+  },
+  isDemo: false,
+},
+
+{
+  title: {
+    en: 'Machine Learning Capstone',
+    ar: 'المشروع التطبيقي النهائي في تعلّم الآلة',
+    ru: 'Итоговый проект по машинному обучению',
+  },
+  provider: 'IBM — Coursera',
+  date: '2026',
+  category: 'Machine Learning',
+  image: 'assets/certificates/IBM-Machine-Learning-Capstone.png',
+  credentialUrl: 'https://coursera.org/share/b2ac7de6831112255f9c398b2c0f6a8b',
+  hours: '20 Hours',
+  description: {
+    en: 'Completed the IBM Machine Learning Capstone, applying machine learning techniques to practical problems through recommender systems, neural networks, regression and classification models, KNN, PCA, and collaborative filtering.',
+    ar: 'أكمل المشروع التطبيقي النهائي في تعلّم الآلة من IBM، حيث طبّق تقنيات تعلّم الآلة على مشكلات عملية من خلال أنظمة التوصية، والشبكات العصبية، ونماذج الانحدار والتصنيف، وخوارزمية KNN، وتحليل المكونات الرئيسية PCA، والترشيح التعاوني.',
+    ru: 'Завершён итоговый проект IBM по машинному обучению с применением методов машинного обучения на практических задачах, включая рекомендательные системы, нейронные сети, модели регрессии и классификации, KNN, PCA и коллаборативную фильтрацию.',
+  },
+  isDemo: false,
+},
+
+{
+  title: {
+    en: 'AWS: AI Practitioner Certificate',
+    ar: 'شهادة ممارس الذكاء الاصطناعي من AWS',
+    ru: 'Сертификат AWS: специалист по искусственному интеллекту',
+  },
+  provider: 'Manara — AWS',
+  date: '2026',
+  category: 'Artificial Intelligence & Cloud Computing',
+  image: 'assets/certificates/AWS-AI-Practitioner.png',
+  credentialUrl: 'https://app.manara.tech/verify-certificate?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjZXJ0aWZpY2F0ZUlkIjo0NTU3NCwiaWF0IjoxNzkwMzUyMTU4fQ.HX0nti3t6B_xF_UGeuA_j5AVOpmU_uXT2pQKwk6szbM',
+  hours: '25 Hours',
+  coursesCompleted: 10,
+  description: {
+    en: 'Completed the AWS AI Practitioner learning program through Manara, consisting of 10 completed courses and 25 hours of training focused on foundational artificial intelligence concepts and AWS-related AI skills.',
+    ar: 'أكمل برنامج AWS AI Practitioner التدريبي من خلال منصة منارة، والذي يتكوّن من 10 دورات مكتملة بإجمالي 25 ساعة تدريبية، مع التركيز على أساسيات الذكاء الاصطناعي والمهارات المرتبطة بتقنيات AWS.',
+    ru: 'Завершена учебная программа AWS AI Practitioner на платформе Manara, включающая 10 пройденных курсов и 25 часов обучения с акцентом на основы искусственного интеллекта и навыки, связанные с технологиями AWS.',
+  },
+  isDemo: false,
+},
+
+   
 
 {
   title: {
