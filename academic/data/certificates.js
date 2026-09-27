@@ -52,7 +52,7 @@ const certificatesData = [
   provider: 'IBM — Coursera',
   date: '2026',
   category: 'Machine Learning & Artificial Intelligence',
-  image: 'assets/certificates/IBM-Machine-Learning-Professional.png',
+  image: 'assets/certificates/1.jpg',
   credentialUrl: 'https://coursera.org/share/adde6a469f030b961a3b023824b0007a',
   hours: '132 Hours',
   description: {
