@@ -72,7 +72,7 @@ const certificatesData = [
   provider: 'IBM — Coursera',
   date: '2026',
   category: 'Machine Learning',
-  image: 'assets/certificates/IBM-Exploratory-Data-Analysis.png',
+  image: 'assets/certificates/2.jpg',
   credentialUrl: 'https://coursera.org/share/19abb67cbe3147b3abe83456339b7c53',
   hours: '14 Hours',
   description: {
@@ -92,7 +92,7 @@ const certificatesData = [
   provider: 'IBM — Coursera',
   date: '2026',
   category: 'Machine Learning',
-  image: 'assets/certificates/IBM-Supervised-ML-Regression.png',
+  image: 'assets/certificates/3.jpg',
   credentialUrl: 'https://coursera.org/share/4d01e61397ace8aa6dffd8625208335b',
   hours: '20 Hours',
   description: {
@@ -112,7 +112,7 @@ const certificatesData = [
   provider: 'IBM — Coursera',
   date: '2026',
   category: 'Machine Learning',
-  image: 'assets/certificates/IBM-Supervised-ML-Classification.png',
+  image: 'assets/certificates/4.jpg',
   credentialUrl: 'https://coursera.org/share/2a02eceba53e4536fc1bc32c92ea4669',
   hours: '24 Hours',
   description: {
@@ -132,7 +132,7 @@ const certificatesData = [
   provider: 'IBM — Coursera',
   date: '2026',
   category: 'Machine Learning',
-  image: 'assets/certificates/IBM-Unsupervised-Machine-Learning.png',
+  image: 'assets/certificates/5.jpg',
   credentialUrl: 'https://coursera.org/share/3dbac13f372f51bde91e3172e1b751c0',
   hours: '23 Hours',
   description: {
@@ -152,7 +152,7 @@ const certificatesData = [
   provider: 'IBM — Coursera',
   date: '2026',
   category: 'Deep Learning & Artificial Intelligence',
-  image: 'assets/certificates/IBM-Deep-Learning-Reinforcement-Learning.png',
+  image: 'assets/certificates/6.jpg',
   credentialUrl: 'https://coursera.org/share/46f4ddb4527654274f227b7834ed7325',
   hours: '31 Hours',
   description: {
@@ -172,7 +172,7 @@ const certificatesData = [
   provider: 'IBM — Coursera',
   date: '2026',
   category: 'Machine Learning',
-  image: 'assets/certificates/IBM-Machine-Learning-Capstone.png',
+  image: 'assets/certificates/7.jpg',
   credentialUrl: 'https://coursera.org/share/b2ac7de6831112255f9c398b2c0f6a8b',
   hours: '20 Hours',
   description: {
@@ -192,7 +192,7 @@ const certificatesData = [
   provider: 'Manara — AWS',
   date: '2026',
   category: 'Artificial Intelligence & Cloud Computing',
-  image: 'assets/certificates/AWS-AI-Practitioner.png',
+  image: 'assets/certificates/8.png',
   credentialUrl: 'https://app.manara.tech/verify-certificate?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjZXJ0aWZpY2F0ZUlkIjo0NTU3NCwiaWF0IjoxNzkwMzUyMTU4fQ.HX0nti3t6B_xF_UGeuA_j5AVOpmU_uXT2pQKwk6szbM',
   hours: '25 Hours',
   coursesCompleted: 10,
